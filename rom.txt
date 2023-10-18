@@ -1,0 +1,21 @@
+To run the script please place it in the rom dir. Then you have to allow it to be executed, use the command: chmod +x rom.sh and to execute it use: bash rom.sh. When you are asked for new rom prefix check in github source what prefix they have by checking vendor_{prefix} repo, for example on EvolutionX its gonna be vendor_evolution so we use "evolution" prefix.
+
+
+# For Android R:
+
+You also have to apply this commit: https://github.com/StyxProject/build_soong/commit/9ec2a9a150243261ca49e691011ddbefe0c24ca2
+
+
+# LED fix:
+
+https://github.com/EmanuelCN/xd_frameworks_base/commit/a56604f250600dda7b22c1afe73095232c48d256
+
+
+# To fix message error at boot:
+
+https://github.com/Evolution-X/frameworks_base/commit/cf904d5811d36cd7993de66486a92994f8f81233
+
+
+
+
+
